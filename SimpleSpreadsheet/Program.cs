@@ -39,7 +39,9 @@ namespace SimpleSpreadsheet
                 }
             }
 
+#if DEBUG
             Console.ReadLine();
+#endif
         }
     }
 }
