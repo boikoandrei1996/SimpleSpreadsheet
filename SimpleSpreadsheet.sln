@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D9832325-D
 		docs\Task - Simple Spreadsheet v1.2.docx = docs\Task - Simple Spreadsheet v1.2.docx
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSpreadsheet.Tests", "SimpleSpreadsheet.Tests\SimpleSpreadsheet.Tests.csproj", "{93565071-BC60-40FD-AB7B-AA297465E94E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B31C649A-8272-40A0-9FF3-692BB5C66BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B31C649A-8272-40A0-9FF3-692BB5C66BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31C649A-8272-40A0-9FF3-692BB5C66BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93565071-BC60-40FD-AB7B-AA297465E94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93565071-BC60-40FD-AB7B-AA297465E94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93565071-BC60-40FD-AB7B-AA297465E94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93565071-BC60-40FD-AB7B-AA297465E94E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

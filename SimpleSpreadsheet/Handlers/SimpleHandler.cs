@@ -7,6 +7,8 @@ namespace SimpleSpreadsheet.Handlers
 {
     public class SimpleHandler : IHandler
     {
+        private static readonly char LineSeparator = ' ';
+
         private readonly ICommandParser _parser;
         private readonly ICommandValidator _validator;
 
@@ -21,7 +23,7 @@ namespace SimpleSpreadsheet.Handlers
 
         public void Handle(string line)
         {
-            var (type, args) = _parser.Parse(line, ' ');
+            var (type, args) = _parser.Parse(line, SimpleHandler.LineSeparator);
             _validator.Validate(type, args, this.CurrentSheet);
             var command = CommandFactory.Create(type, args, this.CurrentSheet);
             this.CurrentSheet = command.Execute();
