@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSpreadsheet", "SimpleSpreadsheet\SimpleSpreadsheet.csproj", "{B31C649A-8272-40A0-9FF3-692BB5C66BBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSpreadsheet", "SimpleSpreadsheet\SimpleSpreadsheet.csproj", "{B31C649A-8272-40A0-9FF3-692BB5C66BBF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D9832325-D660-4D06-B080-4BD73C3B0C6B}"
 	ProjectSection(SolutionItems) = preProject
 		docs\Readme.md = docs\Readme.md
-		docs\Task - Simple Spreadsheet v1.2.docx = docs\Task - Simple Spreadsheet v1.2.docx
+		docs\Task - Simple Spreadsheet.docx = docs\Task - Simple Spreadsheet.docx
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSpreadsheet.Tests", "SimpleSpreadsheet.Tests\SimpleSpreadsheet.Tests.csproj", "{93565071-BC60-40FD-AB7B-AA297465E94E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleSpreadsheet.Tests", "SimpleSpreadsheet.Tests\SimpleSpreadsheet.Tests.csproj", "{93565071-BC60-40FD-AB7B-AA297465E94E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
